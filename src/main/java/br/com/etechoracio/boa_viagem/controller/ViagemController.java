@@ -25,7 +25,7 @@ public class ViagemController {
 	@Autowired
 	private ViagemService service;
 	
-	@GetMapping("/")
+	@GetMapping()
 	public List<Viagem> listarTodos(){
 		
 		
